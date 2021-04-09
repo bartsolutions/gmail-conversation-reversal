@@ -1,0 +1,6 @@
+{
+    "extDescription": {
+        "description": "The description of the application, displayed in the web store.", 
+        "message": "Invertiu la visualització dels correus electrònics als fils de Gmail i, a la part superior, mostreu el correu electrònic més recent."
+    }
+}

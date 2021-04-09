@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "Gmail Conversation Reversal",
+  "short_name": "SGCReversal",
+  "description": "__MSG_extDescription__",
+  "version": "0.1.4",
+  "default_locale": "en",
+  "icons": {
+    "16": "image/icon.16.png",
+    "48": "image/icon.48.png",
+    "128": "image/icon.128.png"
+  },
+  "permissions": [],
+  "web_accessible_resources": [],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mail.google.com/*"
+      ],
+      "css": [
+        "css/style.css"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "image/icon.128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@simple-gmail-conversation-reversal",
+      "strict_min_version": "55.0"
+    }
+  }
+}

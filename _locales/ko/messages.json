@@ -1,0 +1,6 @@
+{
+    "extDescription": {
+        "description": "The description of the application, displayed in the web store.", 
+        "message": "Gmail 스레드의 이메일 표시를 반대로하고 맨 위에 최신 이메일을 표시합니다."
+    }
+}

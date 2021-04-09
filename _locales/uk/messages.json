@@ -1,0 +1,6 @@
+{
+    "extDescription": {
+        "description": "The description of the application, displayed in the web store.", 
+        "message": "Зворотне відображення електронних листів у потоках Gmail, вгорі відображається остання електронна пошта."
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "extDescription": {
+        "description": "The description of the application, displayed in the web store.", 
+        "message": "反转Gmail主题中电子邮件的显示，在顶部显示最新的电子邮件。"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "extDescription": {
+        "description": "The description of the application, displayed in the web store.", 
+        "message": "Gmailスレッドでのメールの表示を逆にし、最新のメールを上部に表示します。"
+    }
+}
